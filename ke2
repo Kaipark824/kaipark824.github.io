@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="keywords" content="법인사업자 대출, 정책자금, 중진공, 신용보증기금, 기술보증기금, 중소기업지원, 정책자금 후기, 사업자금 대출">
+  <meta name="description" content="중소기업 대표들을 위한 정책자금 및 법인사업자 대출 안내 페이지입니다. 실제 사례를 포함한 티스토리 블로그 포스트로 연결됩니다.">
+  <title>정책자금 및 기업대출 정보 모음</title>
+  <style>
+    body { font-family: 'Segoe UI', sans-serif; line-height: 1.7; padding: 2em; background: #f4f4f4; }
+    .container { max-width: 800px; margin: auto; background: white; padding: 2em; border-radius: 12px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+    h1 { color: #005bac; font-size: 1.8em; }
+    ul { list-style: none; padding-left: 0; }
+    li { margin: 1em 0; }
+    a { color: #0074cc; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>중소기업 정책자금 및 금융정보 목록</h1>
+    <p>하나의 페이지에서 제일 인기 많은 티스토리 컨텐츠를 여기서 통합적으로 보기 수 있는 페이지 목록입니다.</p>
+    <ul>
+      <li><a href="https://kaisky.tistory.com/12" target="_blank">제조업 기계교체 정책자금 적용 조건</a></li>
+      <li><a href="https://kaisky.tistory.com/11" target="_blank">정책자금 신용보증 자금이나 다른 자금과 차이</a></li>
+      <li><a href="https://kaisky.tistory.com/10" target="_blank">업적사 기준의 신청 조건 정리</a></li>
+      <li><a href="https://kaisky.tistory.com/9" target="_blank">정책자금 시험대 획득 후기 (상세)</a></li>
+      <li><a href="https://kaisky.tistory.com/7" target="_blank">고용창출 지원금 받을 수 있는 기준</a></li>
+    </ul>
+    <p>더 많은 항목은 티스토리 블록에서 여전히 업로드 중입니다.</p>
+  </div>
+</body>
+</html>
