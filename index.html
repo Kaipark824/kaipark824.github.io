@@ -4,11 +4,11 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>기업자금 전문가 박광래 팀장</title>
-  <meta name="description" content="신용보증기금, 기술보증기금, 중진공 정책자금 등 기업대출 컨설팅 전문. 기업 자금 구조설계 및 승인 사례 제공." />
-  <meta name="keywords" content="기업자금대출, 정책자금, 신용보증기금, 기술보증기금, 중진공자금, 사업자대출, 기업대출컨설팅, 중소기업지원금, 정부지원금, 자금조달전문가" />
   <link href="https://fonts.googleapis.com/css2?family=Pretendard&display=swap" rel="stylesheet">
   <style>
-    * { box-sizing: border-box; }
+    * {
+      box-sizing: border-box;
+    }
     body {
       margin: 0;
       font-family: 'Pretendard', sans-serif;
@@ -86,18 +86,22 @@
       color: #ccc;
       margin-top: 30px;
     }
+
+    /* 성공사례 섹션 */
     .success-section {
       margin-top: 60px;
-      background-color: rgba(0, 0, 0, 0.6);
-      padding: 40px 20px;
+      padding: 30px 20px;
       border-radius: 12px;
+      background-color: rgba(255, 255, 255, 0.05);
       color: #fff;
       text-align: center;
     }
+
     .success-section h2 {
       color: #fee500;
       margin-bottom: 20px;
     }
+
     .carousel {
       display: flex;
       overflow: hidden;
@@ -105,6 +109,7 @@
       width: 100%;
       height: 130px;
     }
+
     .carousel-item {
       min-width: 100%;
       transition: transform 1s ease-in-out;
@@ -113,6 +118,7 @@
       font-size: 1.05em;
       line-height: 1.7;
     }
+
     @keyframes slide {
       0%   { transform: translateX(0%); }
       20%  { transform: translateX(0%); }
@@ -123,11 +129,6 @@
       75%  { transform: translateX(-300%); }
       95%  { transform: translateX(-300%); }
       100% { transform: translateX(-400%); }
-    }
-    @media (max-width: 600px) {
-      h1 { font-size: 1.6em; }
-      .sub-info { font-size: 0.85em; }
-      .container { padding: 20px 15px; }
     }
   </style>
 </head>
@@ -146,36 +147,42 @@
     <h2>우리가 하는 일</h2>
     <p>신용보증기금, 기술보증기금, 중진공 정책자금, 담보대출 등<br>
     다양한 기업자금 분야를 정확히 분석하고, 대표님의 상황에 가장 적합한 자금 구조를 설계합니다.<br>
-    저희만의 노하우를 직접 보시면 감동하실 거라 믿습니다.</p>
+    저희만의 노하우를 직접보시면 감동하실거라 믿습니다.</p>
 
     <h2>왜 전문가가 필요한가요?</h2>
     <p>기업자금은 <span class="highlight">개인대출과 다르게</span> 서류, 타이밍, 신용, 매출구조까지 종합적으로 접근해야 합니다.<br>
-    준비 없이 진행하면 보증서가 <span class="highlight">최소 6개월~1년 이상</span> 부결로 묶일 수 있습니다.<br>
     실제 <span class="highlight">1억~10억, 시설자금 최대 30억</span>까지 사례를 보유하고 있으며,<br>
     <span class="highlight">최저금리 + 세무 전략</span>을 통한 구조설계가 중요합니다.</p>
 
     <h2>신뢰할 수 있는 컨설팅</h2>
     <p>회계사, 노무사, 전직 은행지점장과 함께합니다.<br>
     단순한 대행이 아닌 <strong>실행력 + 사후관리</strong>까지 책임집니다.<br>
-    저는 마케팅 전문가 출신으로, 자금 외 <strong>브랜딩 · 마케팅 · 경영 전략</strong>까지 함께 고민합니다.</p>
+    저는 마케팅 전문가 출신으로, 자금 외 <strong>브랜딩·마케팅·경영 전략</strong>까지 함께 고민합니다.</p>
 
     <section class="success-section">
       <h2>📈 실제 성공사례</h2>
       <div class="carousel">
         <div class="carousel-item">
-          <p><strong>✔ 신용등급 7등급</strong> 제조업 대표님<br>보증불가 → 내부 정비 → <strong>1.5억 승인</strong></p>
+          <p><strong>✔ 신용등급 7등급</strong> 제조업 대표님<br>
+          보증불가 판정 → 내부 데이터 재정비 후<br>
+          <strong>1.5억 승인</strong> 성공</p>
         </div>
         <div class="carousel-item">
-          <p><strong>✔ 업력 1년 미만 IT법인</strong><br>기보 4곳 불가 → <strong>R&D 연계 2억 성사</strong></p>
+          <p><strong>✔ 업력 1년 미만 IT법인</strong><br>
+          기술보증기금, 은행 4곳 불가 상황에서<br>
+          <strong>R&D 연계로 2억 자금 확보</strong></p>
         </div>
         <div class="carousel-item">
-          <p><strong>✔ 자금 막힌 기계설비 업체</strong><br>은행 재선정 → <strong>설비자금 3억 확보</strong></p>
+          <p><strong>✔ 자금 막힌 기계설비 업체</strong><br>
+          은행 재선정 → <strong>설비자금 3억 확보</strong></p>
         </div>
         <div class="carousel-item">
-          <p><strong>✔ 연체 이력 있음</strong><br>구조컨설팅 → <strong>정책자금 1억 통과</strong></p>
+          <p><strong>✔ 마이너스 통장 연체 이력</strong><br>
+          구조진단 후 <strong>정책자금 1억 확보</strong></p>
         </div>
         <div class="carousel-item">
-          <p><strong>✔ 대표 직접 신청 실패</strong><br>지점 통화로 <strong>중진공 2.5억</strong> 승인</p>
+          <p><strong>✔ 대표 혼자서 안되던 사례</strong><br>
+          전략 수립 후 <strong>중진공 2.5억 승인</strong></p>
         </div>
       </div>
     </section>
