@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>기업자금 전문가 박광래 팀장</title>
-  <link href="https://fonts.googleapis.com/css2?family=Pretendard&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Pretendard&display=swap" rel="stylesheet">
   <style>
+    * {
+      box-sizing: border-box;
+    }
     body {
       margin: 0;
       font-family: 'Pretendard', sans-serif;
@@ -13,7 +16,6 @@
       background-size: cover;
       color: #fff;
     }
-
     .container {
       max-width: 880px;
       margin: 60px auto;
@@ -21,63 +23,49 @@
       background-color: rgba(0, 0, 0, 0.65);
       border-radius: 12px;
     }
-
     h1 {
       font-size: 2em;
       font-weight: 800;
-      color: #fff;
       margin-bottom: 5px;
     }
-
     .sub-info {
       font-size: 0.95em;
       color: #ccc;
       line-height: 1.4;
       margin-bottom: 30px;
     }
-
     h2 {
       color: #fee500;
       font-size: 1.4em;
       margin-top: 30px;
     }
-
     p {
       line-height: 1.8;
       font-size: 1.05em;
     }
-
     .highlight {
       color: #fee500;
       font-weight: bold;
     }
-
-    .cta-container {
-      margin-top: 40px;
-    }
-
     .cta-button {
       display: block;
       width: 100%;
       padding: 16px;
-      margin-bottom: 16px;
+      margin: 16px 0;
       font-weight: bold;
       text-align: center;
       border-radius: 8px;
       text-decoration: none;
       font-size: 1.1em;
     }
-
     .kakao {
       background-color: #fee500;
       color: #000;
     }
-
     .phone {
       background-color: #2dd36f;
       color: #fff;
     }
-
     .profile {
       position: fixed;
       top: 20px;
@@ -89,67 +77,86 @@
       border: 3px solid #fff;
       z-index: 10;
     }
-
     .profile img {
       width: 100%;
       height: auto;
     }
-
-    @media screen and (max-width: 768px) {
-      .profile {
-        width: 70px;
-        height: 70px;
-        right: 10px;
-        top: 10px;
-      }
+    .footer {
+      font-size: 0.95em;
+      color: #ccc;
+      margin-top: 30px;
+    }
+    /* 슬라이드 */
+    .slider {
+      margin-top: 40px;
+      overflow: hidden;
+    }
+    .slides {
+      display: flex;
+      animation: slide 15s infinite linear;
+      width: 300%;
+    }
+    .slide {
+      flex: 0 0 100%;
+      padding: 20px;
+      background: rgba(255,255,255,0.1);
+      border-radius: 12px;
+      margin-right: 20px;
+    }
+    @keyframes slide {
+      0%   { transform: translateX(0); }
+      33%  { transform: translateX(-100%); }
+      66%  { transform: translateX(-200%); }
+      100% { transform: translateX(0); }
     }
   </style>
 </head>
 <body>
   <div class="profile">
-    <img src="증명사진.jpg" alt="박광래 팀장 증명사진" />
+    <img src="증명사진.jpg" alt="프로필">
   </div>
 
   <div class="container">
     <h1>기업자금전문가 박광래 팀장</h1>
     <div class="sub-info">
-      (주)고려경영지원센터<br />
+      (주)고려경영지원센터<br>
       (주)한국정책자금지원센터
     </div>
 
     <h2>우리가 하는 일</h2>
-    <p>
-      신용보증기금, 기술보증기금, 중진공 정책자금, 담보대출 등<br />
-      다양한 기업자금 분야를 정확히 분석하고, 대표님의 상황에 가장 적합한 자금 구조를 설계합니다.<br />
-      저희만의 노하우를 직접보시면 감동하실 거라 믿습니다.
-    </p>
+    <p>신용보증기금, 기술보증기금, 중진공 정책자금, 담보대출 등<br>
+    다양한 기업자금 분야를 정확히 분석하고, 대표님의 상황에 가장 적합한 자금 구조를 설계합니다.<br>
+    저희만의 노하우를 직접보시면 감동하실거라 믿습니다.</p>
 
     <h2>왜 전문가가 필요한가요?</h2>
-    <p>
-      기업자금은 <span class="highlight">개인대출과 다르게</span> 서류, 타이밍, 신용, 매출구조까지 종합적으로 접근해야 합니다.<br />
-      보증서가 한 번 부결되면 <span class="highlight">최소 6개월~1년 이상</span> 자금이 묶일 수 있습니다.<br />
-      저희는 실제로 <span class="highlight">1억~10억, 시설자금은 최대 30억</span>까지 자금 조달 사례를 보유하고 있으며,<br />
-      모든 금융 프로세스를 숙련된 팀이 함께 설계합니다.<br />
-      가능한 <span class="highlight">최저 금리</span>와 <span class="highlight">세무 전략</span>을 기반으로 기업의 자금 흐름 전체를 설계합니다.
-    </p>
+    <p>기업자금은 <span class="highlight">개인대출과 다르게</span> 서류, 타이밍, 신용, 매출구조까지 종합적으로 접근해야 합니다.<br>
+    보증서가 한 번 부결되면 <span class="highlight">최소 6개월~1년 이상</span> 자금이 묶일 수 있습니다.<br>
+    저희는 실제로 <span class="highlight">1억~10억, 시설자금은 최대 30억</span>까지 자금 조달 사례를 보유하고 있으며,<br>
+    가능한 <span class="highlight">최저 금리</span>와 <span class="highlight">세무 전략</span>을 기반으로 기업의 자금 흐름 전체를 설계합니다.</p>
 
     <h2>신뢰할 수 있는 컨설팅</h2>
-    <p>
-      회계사, 노무사, 전직 은행 지점장 출신 전문가들로 구성된 저희는<br />
-      단순한 서류 대행이 아닌 <strong>실질적 실행력</strong>과 <strong>사후관리</strong>를 함께합니다.<br />
-      저는 마케팅 전문가 출신으로, 자금 컨설팅뿐 아니라 <strong>마케팅·브랜딩·경영 솔루션</strong>까지 함께 고민합니다.
-    </p>
+    <p>회계사, 노무사, 전직 은행 지점장 출신 전문가들로 구성된 저희는<br>
+    단순한 서류 대행이 아닌 <strong>실질적 실행력</strong>과 <strong>사후관리</strong>를 함께합니다.<br>
+    저는 마케팅 전문가 출신으로, 자금 컨설팅뿐 아니라 <strong>마케팅·브랜딩·경영 솔루션</strong>까지 함께 고민합니다.</p>
 
-    <div class="cta-container">
-      <a href="https://open.kakao.com/o/skFnmtvh" class="cta-button kakao" target="_blank">💬 카카오톡 연결하기</a>
+    <div class="cta">
+      <a href="https://open.kakao.com/o/skFnmtvh" class="cta-button kakao">💬 카카오톡 연결하기</a>
       <a href="tel:010-7901-3158" class="cta-button phone">📞 24시 전화상담 문의하기</a>
     </div>
 
-    <p style="margin-top: 30px; font-size: 0.95em; color: #ccc;">
-      (주)고려경영지원센터 박광래 팀장 · 010-7901-3158<br />
-      이메일: goodpgl824@gmail.com · <a href="https://kaisky.tistory.com" style="color:#aef;" target="_blank">티스토리 블로그 바로가기</a><br />
+    <div class="footer">
+      (주)고려경영지원센터 박광래 팀장 · 010-7901-3158<br>
+      이메일: goodpgl824@gmail.com · <a href="https://kaisky.tistory.com" style="color:#aef;">티스토리 블로그 바로가기</a><br>
       주소: 서울 마포구 마포대로130, 14층 고려경영지원센터
-    </p>
+    </div>
+
+    <div class="slider">
+      <div class="slides">
+        <div class="slide">✅ <strong>신용보증기금 1억 승인</strong><br>담보 없이 신용 7등급 기업이 보증을 통해 자금 확보</div>
+        <div class="slide">✅ <strong>기존 은행에서 거절된 대출 승인</strong><br>대표님이 직접 넣으셨던 대출이 저희 설계로 성공</div>
+        <div class="slide">✅ <strong>시설자금 30억 승인</strong><br>공장 매입을 위한 정책자금 구조 수립 성공</div>
+      </div>
+    </div>
   </div>
 </body>
 </html>
