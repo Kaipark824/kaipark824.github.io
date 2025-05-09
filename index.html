@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>기업자금전문가 박광래 팀장</title>
-  <link href="https://fonts.googleapis.com/css2?family=Pretendard&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Pretendard&display=swap" rel="stylesheet" />
   <style>
     * {
       margin: 0;
@@ -14,44 +14,53 @@
     }
 
     body {
-      background: url('curtain-1024x682.jpg') no-repeat center center fixed;
+      background: url('https://kaipark824.github.io/curtain-1024x682.jpg') no-repeat center center fixed;
       background-size: cover;
       color: #fff;
-      line-height: 1.6;
     }
 
     .overlay {
       background-color: rgba(0, 0, 0, 0.7);
       min-height: 100vh;
-      padding: 2rem 1.5rem;
+      padding: 3rem 2rem;
       position: relative;
-      max-width: 900px;
-      margin: auto;
+    }
+
+    .profile {
+      position: absolute;
+      top: 2rem;
+      right: 2rem;
+    }
+
+    .profile img {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      border: 3px solid #fff;
     }
 
     h1 {
-      font-size: 1.9em;
+      font-size: 2em;
+      font-weight: bold;
       color: #fff;
-      font-weight: 700;
     }
 
-    h1 .sub {
-      display: block;
-      font-size: 0.9em;
-      font-weight: 400;
-      color: #eee;
-      margin-top: 4px;
+    .subtitle {
+      font-size: 0.95em;
+      color: #ccc;
+      line-height: 1.4;
     }
 
     h2 {
       margin-top: 2.5rem;
-      font-size: 1.4em;
+      font-size: 1.5em;
       color: #facc15;
     }
 
     p {
-      margin-top: 0.5rem;
-      font-size: 1rem;
+      margin-top: 0.8rem;
+      line-height: 1.7;
+      color: #eee;
     }
 
     .highlight {
@@ -59,122 +68,106 @@
       font-weight: bold;
     }
 
-    .cta a {
-      display: block;
-      width: 100%;
-      font-size: 1.2em;
-      font-weight: bold;
-      text-align: center;
-      padding: 16px;
-      border-radius: 8px;
-      text-decoration: none;
-      transition: background 0.3s;
+    .cta-container {
+      margin-top: 2rem;
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
     }
 
-    .kakao {
+    .cta-button {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1em;
+      font-weight: bold;
+      border-radius: 8px;
+      padding: 1rem;
+      text-decoration: none;
+      transition: 0.2s;
+    }
+
+    .cta-button.kakao {
       background-color: #fee500;
       color: #000;
     }
 
-    .phone {
+    .cta-button.phone {
       background-color: #2dd36f;
       color: #fff;
-      margin-top: 12px;
     }
 
-    .cta img {
+    .cta-button img {
       width: 24px;
-      margin-right: 8px;
-      vertical-align: middle;
-    }
-
-    .profile-img {
-      position: absolute;
-      top: 20px;
-      right: 20px;
-      width: 80px;
-      height: 80px;
-      border-radius: 50%;
-      object-fit: cover;
-      border: 3px solid #fff;
-    }
-
-    @media (max-width: 768px) {
-      .profile-img {
-        left: 50%;
-        transform: translateX(-50%);
-        top: 20px;
-        right: auto;
-      }
-
-      h1 {
-        text-align: center;
-        font-size: 1.6em;
-      }
-
-      h1 .sub {
-        font-size: 0.85em;
-        text-align: center;
-      }
+      margin-right: 10px;
     }
 
     footer {
-      margin-top: 2.5rem;
+      margin-top: 3rem;
       font-size: 0.9rem;
       color: #ccc;
       line-height: 1.6;
     }
 
-    footer a {
-      color: #fee500;
-      text-decoration: underline;
+    @media (max-width: 768px) {
+      .profile {
+        top: 1rem;
+        right: 1rem;
+      }
     }
   </style>
 </head>
 <body>
   <div class="overlay">
-    <img src="증명사진.jpg" alt="프로필 사진" class="profile-img">
-    <h1>
-      기업자금전문가 박광래 팀장
-      <span class="sub">(주)고려경영지원센터</span>
-      <span class="sub">(주)한국정책자금지원센터</span>
-    </h1>
+    <div class="profile">
+      <img src="https://kaipark824.github.io/증명사진.jpg" alt="프로필 사진" />
+    </div>
+
+    <h1>기업자금전문가 박광래 팀장</h1>
+    <div class="subtitle">
+      (주)고려경영지원센터<br />
+      (주)한국정책자금지원센터
+    </div>
 
     <h2>우리가 하는 일</h2>
-    <p>신용보증기금, 기술보증기금, 중진공 정책자금, 담보대출 등<br>
-    다양한 기업자금 분야를 정확히 분석하고, 대표님의 상황에 가장 적합한 자금 구조를 설계합니다.<br>
-    저희만의 노하우를 직접보시면 감동하실거라 믿습니다.</p>
+    <p>
+      신용보증기금, 기술보증기금, 중진공 정책자금, 담보대출 등<br />
+      다양한 기업자금 분야를 정확히 분석하고, 대표님의 상황에 가장 적합한 자금 구조를 설계합니다.<br />
+      저희만의 노하우를 직접보시면 감동하실거라 믿습니다.
+    </p>
 
     <h2>왜 전문가가 필요한가요?</h2>
-    <p>기업자금은 <span class="highlight">개인대출과 다르게</span> 서류, 타이밍, 신용, 매출구조까지 종합적으로 접근해야 합니다.<br>
-    보증서가 한 번 부결되면 <span class="highlight">최소 6개월~1년 이상</span> 자금이 묶일 수 있습니다.</p>
-
-    <p>저희는 실제로 <span class="highlight">1억~10억, 시설자금은 최대 30억</span>까지 자금 조달 사례를 보유하고 있으며,<br>
-    모든 금융 프로세스를 숙련된 팀이 함께 설계합니다.<br>
-    가능한 <span class="highlight">최저 금리</span>와 <span class="highlight">세무 전략</span>을 기반으로 기업의 자금 흐름 전체를 설계합니다.</p>
+    <p>
+      기업자금은 <span class="highlight">개인대출과 다르게</span> 서류, 타이밍, 신용, 매출구조까지 종합적으로 접근해야 합니다.<br />
+      보증서가 한 번 부결되면 <span class="highlight">최소 6개월~1년 이상</span> 자금이 묶일 수 있습니다.
+    </p>
+    <p>
+      저희는 실제로 <span class="highlight">1억~10억, 시설자금은 최대 30억</span>까지 자금 조달 사례를 보유하고 있으며,<br />
+      모든 금융 프로세스를 숙련된 팀이 함께 설계합니다.<br />
+      가능한 <span class="highlight">최저 금리</span>와 <span class="highlight">세무 전략</span>을 기반으로 기업의 자금 흐름 전체를 설계합니다.
+    </p>
 
     <h2>신뢰할 수 있는 컨설팅</h2>
-    <p><strong>회계사, 노무사, 전직 은행 지점장</strong> 출신 전문가들로 구성된 저희 센터는<br>
-    단순한 서류 대행이 아닌 <strong>실질적 실행력</strong>과 <strong>사후관리</strong>를 함께합니다.<br>
-    저는 마케팅 전문가 출신으로, 자금 컨설팅뿐 아니라 <strong>마케팅·브랜딩·경영 솔루션</strong>까지 함께 고민합니다.</p>
-<br>
-    
-    <div class="cta">
-      <a href="https://open.kakao.com/o/skFnmtvh" class="kakao" target="_blank">
-        <img src="https://cdn-icons-png.flaticon.com/512/2111/2111615.png" alt="Kakao Icon">
-        카카오톡 연결하기
+    <p>
+      회계사, 노무사, 전직 은행 지점장 출신 전문가들로 구성된 저희 팀은<br />
+      단순한 서류 대행이 아닌 <strong>실질적 실행력</strong>과 <strong>사후관리</strong>를 함께합니다.<br />
+      저는 마케팅 전문가 출신으로, 자금 컨설팅뿐 아니라 <strong>마케팅·브랜딩·경영 솔루션</strong>까지 함께 고민합니다.
+    </p>
+    <br />
+
+    <div class="cta-container">
+      <a href="https://open.kakao.com/o/skFnmtvh" class="cta-button kakao" target="_blank">
+        <img src="https://cdn-icons-png.flaticon.com/512/2111/2111615.png" alt="카카오톡">카카오톡 연결하기
       </a>
-      <a href="tel:010-7901-3158" class="phone">
-        <img src="https://cdn-icons-png.flaticon.com/512/597/597177.png" alt="Phone Icon">
-        24시 전화상담 문의하기
+      <a href="tel:010-7901-3158" class="cta-button phone">
+        <img src="https://cdn-icons-png.flaticon.com/512/597/597177.png" alt="전화">24시 전화상담 문의하기
       </a>
     </div>
 
     <footer>
-      (주)고려경영지원센터 박광래 팀장 · 010-7901-3158<br>
-      이메일: goodpgl824@gmail.com · 
-      <a href="https://kaisky.tistory.com" target="_blank">티스토리 블로그 바로가기</a><br>
-      주소: 서울시 마포구 마포대로 130, 14층 고려경영지원센터
+      (주)고려경영지원센터 박광래 팀장 · 010-7901-3158<br />
+      이메일: goodpgl824@gmail.com · <a href="https://kaisky.tistory.com" target="_blank" style="color:#facc15;">티스토리 블로그 바로가기</a><br />
+      주소: 서울시 마포구 마포대로 130, 별정우체국연금관리단 14층
     </footer>
   </div>
 </body>
