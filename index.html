@@ -101,11 +101,22 @@
     }
 
     @media (max-width: 768px) {
+      
       .profile-img {
-        position: static;
-        display: block;
-        margin: 0 auto 1rem;
-      }
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 80px;
+  border-radius: 50%;
+}
+
+/* PC 화면에서 위치 조정 */
+@media screen and (min-width: 768px) {
+  .profile-img {
+    right: 60px; /* 또는 left로 위치 변경 가능 */
+    top: 40px;
+  }
+}
 
       h1 {
         font-size: 1.6em;
