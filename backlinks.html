@@ -1,50 +1,167 @@
-<!-- backlinks.html -->
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-  <meta charset="UTF-8">
-  <title>중소기업 정책자금 정보 - 고려경영지원센터</title>
-  <meta name="description" content="정책자금, 법인대출, 신용보증기금 등 기업자금정보. 고려경영지원센터">
-  <link rel="canonical" href="https://kaipark824.github.io/">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>관련 키워드 백링크 모음 | 기업정책자금 가이드 허브</title>
+  <style>
+    body {
+      font-family: 'Apple SD Gothic Neo', sans-serif;
+      background: linear-gradient(to right, #e8f0ff, #fdfdfd);
+      color: #222;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background: #003366;
+      color: #fff;
+      padding: 40px 20px 30px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 28px;
+    }
+    header p {
+      font-size: 16px;
+      margin-top: 10px;
+      color: #d2e3f5;
+    }
+    .search-container {
+      text-align: center;
+      margin: 20px auto 0;
+    }
+    #searchInput {
+      width: 90%;
+      max-width: 500px;
+      padding: 10px;
+      font-size: 16px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+    }
+    .tabs {
+      text-align: center;
+      margin: 30px 0 10px;
+    }
+    .tab {
+      display: inline-block;
+      margin: 0 10px;
+      padding: 8px 16px;
+      border-radius: 5px;
+      background: #e0e0e0;
+      cursor: pointer;
+      font-weight: bold;
+    }
+    .tab.active {
+      background: #1976d2;
+      color: white;
+    }
+    main {
+      max-width: 900px;
+      margin: 0 auto 40px;
+      padding: 0 20px;
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: 0 0 20px rgba(0,0,0,0.05);
+    }
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+    li {
+      margin: 10px 0;
+      padding: 10px 15px;
+      background: #f1f6fd;
+      border-radius: 6px;
+      transition: 0.3s;
+    }
+    li:hover {
+      background: #ddeeff;
+    }
+    a {
+      text-decoration: none;
+      color: #003399;
+      font-weight: bold;
+    }
+    footer {
+      text-align: center;
+      font-size: 14px;
+      padding: 30px 0;
+      color: #888;
+    }
+  </style>
+  <script>
+    function filterLinks() {
+      var input = document.getElementById('searchInput').value.toLowerCase();
+      var items = document.querySelectorAll('ul li');
+      items.forEach(function(item) {
+        item.style.display = item.textContent.toLowerCase().includes(input) ? '' : 'none';
+      });
+    }
+    function showTab(category) {
+      document.querySelectorAll('.tab').forEach(tab => tab.classList.remove('active'));
+      document.querySelector('.tab[data-category="' + category + '"]').classList.add('active');
+      document.querySelectorAll('ul').forEach(ul => ul.style.display = 'none');
+      document.getElementById(category).style.display = 'block';
+    }
+    document.addEventListener('DOMContentLoaded', function() {
+      showTab('전체');
+    });
+  </script>
 </head>
 <body>
-  <h1>관련 키워드 백링크 모음</h1>
-  <ul>
-    <li><a href="https://kaisky.tistory.com/24">기업운영자금대출 받는 법 | 신용보증기금으로 정책자금 활용하기</a></li>
-    <li><a href="https://kaipark824.github.io/">정책자금 지원센터</a></li>
-    <li><a href="https://kaipark824.github.io/">법인사업자 대출 정보</a></li>
-    <li><a href="https://kaipark824.github.io/">중소기업 정부지원금</a></li>
-    <li><a href="https://kaipark824.github.io/">신용보증기금 활용법</a></li>
-    <li><a href="https://kaipark824.github.io/">R&D자금 컨설팅</a></li>
-    <li><a href="https://kaisky.tistory.com/17" target="_blank">기술보증기금, 남의 일 아니었습니다 - 실제 사례 기반 후기</a></li>
-    <li><a href="https://kaisky.tistory.com/13" target="_blank">정책자금 받는 법, 핵심 요약</a></li>
-<li><a href="https://kaisky.tistory.com/12" target="_blank">2025 공장시설자금 및 공장투자자금 활용 가능 여부</a></li>
-<li><a href="https://kaisky.tistory.com/15" target="_blank">기술보증기금 vs 신용보증기금 차이</a></li>
-<li><a href="https://kaisky.tistory.com/14" target="_blank">고용창출장려금 조건부터 신청 방법까지 정리</a></li>
-<li><a href="https://kaisky.tistory.com/16" target="_blank">스마트공장 자금 지원 조건과 신청 방법</a></li>
-    <li><a href="https://kaisky.tistory.com/11">창업 전 꼭 알아야 할 정부지원금, 저는 이렇게 시작했어요</a></li>
-<li><a href="https://kaisky.tistory.com/10">2025년 정책자금 제도, 꼭 알아야 할 3가지 변화</a></li>
-<li><a href="https://kaisky.tistory.com/9">정책자금 신청 전에 꼭 확인해야 할 기초 조건 5가지</a></li>
-<li><a href="https://kaisky.tistory.com/8">정부 정책자금, 중소기업이 꼭 알아야 할 5가지 종류</a></li>
-<li><a href="https://kaisky.tistory.com/7">2025년 중소기업 정책자금 신청 조건과 절차, 대표자가 꼭 알아야 할 핵심 내용</a></li>
-<li><a href="https://kaisky.tistory.com/6">운전자금 vs 시설자금, 정책자금 받을 때 어떤 차이가 있을까?</a></li>
-<li><a href="https://kaisky.tistory.com/5">신용보증기금 없이 대출 가능한가요? 대표님들이 가장 많이 묻는 질문 정리</a></li>
-<li><a href="https://kaisky.tistory.com/4">중소기업 vs 신용보증재단 자금 지원, 무엇이 다를까?</a></li>
-<li><a href="https://kaisky.tistory.com/3">고용창출장려금 조건부터 신청 방법까지 – 인건비 부담 줄이는 정부지원</a></li>
-<li><a href="https://kaisky.tistory.com/2">스마트공장 지원금 조건과 신청 방법 – 중소 제조업의 자동화 도전</a></li>
-<li><a href="https://kaisky.tistory.com/1">정책자금 신청, 생각보다 어렵지 않았습니다 (실제 경험담)</a></li>
-<li><a href="https://kaisky.tistory.com/21">요즘도 정부지원금 못 받는 줄 아시나요? 대표님도 몰랐던 자금 활용법 (실제 경험담)</a></li>
-    <li><a href="https://kaisky.tistory.com/22" target="_blank">ESG가 뭔길래 자금심사에 불이익? ISO인증까지 한 번에 해결하는 방법</a></li>
-<li><a href="https://kaisky.tistory.com/23" target="_blank">ISO 인증, 매년 연장해야 할까? 비용부터 갱신 주기까지 완벽 정리</a></li>
-    <li><a href="https://kaisky.tistory.com/25" target="_blank">정책자금 종류 및 보증기관 비교표 | 신보 vs 기보 + 업종별 자금전략</a></li>
-    <li><a href="https://kaisky.tistory.com/26" target="_blank">기업대출 이자 감면 방법 | 고금리 대환 · 정책자금 활용 전략</a></li>
+  <header>
+    <h1>📚 관련 키워드 백링크 모음</h1>
+    <p>정책자금 · 기업대출 · 보증서 · 정부지원 등 다양한 주제별 고품질 정보 콘텐츠를 모았습니다.</p>
+  </header>
 
-    
-    
-    
+  <div class="search-container">
+    <input type="text" id="searchInput" onkeyup="filterLinks()" placeholder="검색어를 입력하세요..." />
+  </div>
 
+  <div class="tabs">
+    <div class="tab" data-category="전체" onclick="showTab('전체')">전체</div>
+    <div class="tab" data-category="정책자금" onclick="showTab('정책자금')">정책자금</div>
+    <div class="tab" data-category="보증기관" onclick="showTab('보증기관')">보증기관</div>
+    <div class="tab" data-category="사례" onclick="showTab('사례')">사례</div>
+    <div class="tab" data-category="기타" onclick="showTab('기타')">기타</div>
+  </div>
 
+  <main>
+    <ul id="전체">
+      <li><a href="https://kaisky.tistory.com/24">기업운영자금대출 받는 법 | 신용보증기금으로 정책자금 활용하기</a></li>
+      <li><a href="https://kaipark824.github.io/">정책자금 지원센터</a></li>
+      <li><a href="https://kaipark824.github.io/">법인사업자 대출 정보</a></li>
+      <li><a href="https://kaipark824.github.io/">중소기업 정부지원금</a></li>
+      <li><a href="https://kaipark824.github.io/">신용보증기금 활용법</a></li>
+      <li><a href="https://kaipark824.github.io/">R&D자금 컨설팅</a></li>
+      <li><a href="https://kaisky.tistory.com/17">기술보증기금, 남의 일 아니었습니다 - 실제 사례 기반 후기</a></li>
+      <li><a href="https://kaisky.tistory.com/13">정책자금 받는 법, 핵심 요약</a></li>
+      <li><a href="https://kaisky.tistory.com/12">2025 공장시설자금 및 공장투자자금 활용 가능 여부</a></li>
+      <li><a href="https://kaisky.tistory.com/15">기술보증기금 vs 신용보증기금 차이</a></li>
+      <li><a href="https://kaisky.tistory.com/14">고용창출장려금 조건부터 신청 방법까지 정리</a></li>
+      <li><a href="https://kaisky.tistory.com/16">스마트공장 자금 지원 조건과 신청 방법</a></li>
+      <li><a href="https://kaisky.tistory.com/11">창업 전 꼭 알아야 할 정부지원금, 저는 이렇게 시작했어요</a></li>
+      <li><a href="https://kaisky.tistory.com/10">2025년 정책자금 제도, 꼭 알아야 할 3가지 변화</a></li>
+      <li><a href="https://kaisky.tistory.com/9">정책자금 신청 전에 꼭 확인해야 할 기초 조건 5가지</a></li>
+      <li><a href="https://kaisky.tistory.com/8">정부 정책자금, 중소기업이 꼭 알아야 할 5가지 종류</a></li>
+      <li><a href="https://kaisky.tistory.com/7">2025년 중소기업 정책자금 신청 조건과 절차, 대표자가 꼭 알아야 할 핵심 내용</a></li>
+      <li><a href="https://kaisky.tistory.com/6">운전자금 vs 시설자금, 정책자금 받을 때 어떤 차이가 있을까?</a></li>
+      <li><a href="https://kaisky.tistory.com/5">신용보증기금 없이 대출 가능한가요? 대표님들이 가장 많이 묻는 질문 정리</a></li>
+      <li><a href="https://kaisky.tistory.com/4">중소기업 vs 신용보증재단 자금 지원, 무엇이 다를까?</a></li>
+      <li><a href="https://kaisky.tistory.com/3">고용창출장려금 조건부터 신청 방법까지 – 인건비 부담 줄이는 정부지원</a></li>
+      <li><a href="https://kaisky.tistory.com/2">스마트공장 지원금 조건과 신청 방법 – 중소 제조업의 자동화 도전</a></li>
+      <li><a href="https://kaisky.tistory.com/1">정책자금 신청, 생각보다 어렵지 않았습니다 (실제 경험담)</a></li>
+      <li><a href="https://kaisky.tistory.com/21">요즘도 정부지원금 못 받는 줄 아시나요? 대표님도 몰랐던 자금 활용법 (실제 경험담)</a></li>
+      <li><a href="https://kaisky.tistory.com/22">ESG가 뭔길래 자금심사에 불이익? ISO인증까지 한 번에 해결하는 방법</a></li>
+      <li><a href="https://kaisky.tistory.com/23">ISO 인증, 매년 연장해야 할까? 비용부터 갱신 주기까지 완벽 정리</a></li>
+      <li><a href="https://kaisky.tistory.com/25">정책자금 종류 및 보증기관 비교표 | 신보 vs 기보 + 업종별 자금전략</a></li>
+      <li><a href="https://kaisky.tistory.com/26">기업대출 이자 감면 방법 | 고금리 대환 · 정책자금 활용 전략</a></li>
+    </ul>
+  </main>
 
-  </ul>
+  <footer>
+    ⓒ 2024 kaipark824.github.io | 기업정책자금 관련 정보 제공 목적
+  </footer>
 </body>
 </html>
