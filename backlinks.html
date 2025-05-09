@@ -3,7 +3,13 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>관련 키워드 백링크 모음 | 기업정책자금 가이드 허브</title>
+
+  <title>정책자금 · 신용보증기금 · 기업대출 백링크 허브 | 박광래 팀장</title>
+  
+  <meta name="description" content="중소기업 정책자금, 신용보증기금, 기술보증기금, 고금리 대환, 시설자금, 운전자금, 기업부설연구소 등 정부지원제도 관련 실사례 기반 백링크 콘텐츠 모음 페이지입니다.">
+  
+  <meta name="keywords" content="정책자금 받는 법, 신용보증기금 활용, 기업운영자금대출, 고금리 대환대출, 기술보증기금, 시설자금 지원, 운전자금 신청, 기업부설연구소 설립, ESG 자금, ISO 인증 비용, 중진공 대출, 정부지원사업, 사업자 신용등급 올리는 법, 기업대출 이자감면, 창업지원금, 고용지원금, R&D 자금, 기업자금 컨설팅, 고려경영지원센터, 박광래 팀장">
+
   <style>
     body {
       font-family: 'Apple SD Gothic Neo', sans-serif;
@@ -12,25 +18,30 @@
       margin: 0;
       padding: 0;
     }
+
     header {
       background: #003366;
       color: #fff;
       padding: 40px 20px 30px;
       text-align: center;
     }
+
     header h1 {
       margin: 0;
       font-size: 28px;
     }
+
     header p {
       font-size: 16px;
       margin-top: 10px;
       color: #d2e3f5;
     }
+
     .search-container {
       text-align: center;
       margin: 20px auto 0;
     }
+
     #searchInput {
       width: 90%;
       max-width: 500px;
@@ -39,10 +50,12 @@
       border: 1px solid #ccc;
       border-radius: 6px;
     }
+
     .tabs {
       text-align: center;
       margin: 30px 0 10px;
     }
+
     .tab {
       display: inline-block;
       margin: 0 10px;
@@ -52,10 +65,12 @@
       cursor: pointer;
       font-weight: bold;
     }
+
     .tab.active {
       background: #1976d2;
       color: white;
     }
+
     main {
       max-width: 900px;
       margin: 0 auto 40px;
@@ -64,10 +79,12 @@
       border-radius: 10px;
       box-shadow: 0 0 20px rgba(0,0,0,0.05);
     }
+
     ul {
       list-style-type: none;
       padding: 0;
     }
+
     li {
       margin: 10px 0;
       padding: 10px 15px;
@@ -75,14 +92,17 @@
       border-radius: 6px;
       transition: 0.3s;
     }
+
     li:hover {
       background: #ddeeff;
     }
+
     a {
       text-decoration: none;
       color: #003399;
       font-weight: bold;
     }
+
     footer {
       text-align: center;
       font-size: 14px;
@@ -90,25 +110,8 @@
       color: #888;
     }
   </style>
-  <script>
-    function filterLinks() {
-      var input = document.getElementById('searchInput').value.toLowerCase();
-      var items = document.querySelectorAll('ul li');
-      items.forEach(function(item) {
-        item.style.display = item.textContent.toLowerCase().includes(input) ? '' : 'none';
-      });
-    }
-    function showTab(category) {
-      document.querySelectorAll('.tab').forEach(tab => tab.classList.remove('active'));
-      document.querySelector('.tab[data-category="' + category + '"]').classList.add('active');
-      document.querySelectorAll('ul').forEach(ul => ul.style.display = 'none');
-      document.getElementById(category).style.display = 'block';
-    }
-    document.addEventListener('DOMContentLoaded', function() {
-      showTab('전체');
-    });
-  </script>
 </head>
+
 <body>
   <header>
     <h1>📚 관련 키워드 백링크 모음</h1>
